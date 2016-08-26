@@ -6,7 +6,82 @@ nav {
 }
 
 .fondo1 {
-	background-image: url(../image/large.jpg);
+	background-image: url(../image/large1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	opacity: 1;
+}
+.cajazul {
+	
+	background-size: cover;
+	background-color: rgba(26, 84, 255, 0.5);
+}
+
+.center {
+	text-align: center;
+}
+
+.blanco {
+	color: white;
+
+}
+
+.azul1 {
+	color: #29ABE2;
+}
+
+.azul2 {
+	color:#007EED; 
+}
+.elprimero {
+	padding: 12%;
+	font-size: 48px;
+}
+
+.prueba {
+	font-size: 16px;
+	margin-left: 45%;
+
+}
+.logoa {
+	width: 70%;
+	height: 20%;
+	margin: 10% 0% 0% 25%;
+}
+
+.padtop {
+	padding-top: 5%;
+}
+
+.padbot{
+	padding-bottom: 5%;
+}
+
+.pruebag {
+	margin-left: 45%;
+	font-size: 30px;
+}
+
+.cero {
+	opacity: 1;
+}
+
+.boton1 {
+	border: solid 3px white;
+	background-color: transparent;
+	border-radius: 5px;
+	color: white;
+	margin-top: 6%;
+	width: 30%;
+	font-size:20px; 
+	padding: 2%;
+}
+
+.h {
+	font-size: 30px;
+}
+
+.topad {
+	padding-top: 10%;
+	padding-bottom: 5%;
 }
