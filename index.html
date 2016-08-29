@@ -17,24 +17,24 @@
 		<div class="container-fluid fondo1"> <!--imagenqueterminaenlaprimerasection-->
 			<header>
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-xs-3 col-md-3">
 						<a href=""><img src="image/user-r.png" class="logoa"></a> <!--primerlogo-->
 					</div>
-					<div class="col-md-9">
+					<div class="col-xs-9 col-md-9">
 						<nav class="navbar"> <!--navbar-fixed-top--> <!--menudesplegable-->
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target= "#myNavbar">
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>	
+									<span class="icon-bar md"></span>
+									<span class="icon-bar md"></span>
+									<span class="icon-bar md"></span>	
 								</button>
 							</div>
 							<div class="collapse navbar-collapse navbar-right" id="myNavbar">
 								<ul class="nav nav-pills"> <!--elementosdelmenu-->
-			               			<li role="presentation" ><a href="" class="blanco menu">¿Qué me ofrece?</a></li> <!--estostenemosquedireccionarlos-->
-			                		<li role="presentation" ><a href="" class="blanco menu">¿Cómo funciona? </a></li>
-			                		<li role="presentation"><a href="" class="blanco menu">¿Por qué usarlo?</a></li>
-		                			<li role="presentation"><a href="" class="blanco menu">Contactanos</a></li>
+			               			<li role="presentation" ><a href="#nuestrosservicios" class="blanco menu">¿Qué me ofrece?</a></li> <!--estostenemosquedireccionarlos-->
+			                		<li role="presentation" ><a href="#funciona" class="blanco menu">¿Cómo funciona? </a></li>
+			                		<li role="presentation"><a href="#usarlo" class="blanco menu">¿Por qué usarlo?</a></li>
+		                			<li role="presentation"><a href="#contacto" class="blanco menu">Contactanos</a></li>
 	                			</ul>
 	                		</div>	
 						</nav>
@@ -48,12 +48,12 @@
 					</div>
 				</div>
 				<div class="row cajazul"> <!--cajitazulqueacogeelprimerboton-->
-					<div class="col-md-6">
-						<p class="blanco center pruebag padtop">PRUEBA GRATIS</p>
-						<p class="blanco  center prueba padbot">Obtén un video gratis de 5 minutos</p>
+					<div class=" col-xs-6 col-md-6">
+						<p class="blanco center pruebag padtop gratis fuente1">PRUEBA GRATIS</p>
+						<p class="blanco  center prueba padbot gratis fuente2">Obtén un video gratis de 5 minutos</p>
 					</div>
-					<div class="col-md-6">
-						<button type="button" class="boton1 animated zoomIn btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Pruebalo gratis</button> <!--modal-->
+					<div class="col-xs-6 col-md-6">
+						<button type="button" class="boton1 animated zoomIn btn btn-info btn-lg bo " data-toggle="modal" data-target="#myModal">Pruebalo gratis</button> <!--modal-->
 						<!-- Modal -->
 						<div id="myModal" class="modal fade" role="dialog">
   							<div class="modal-dialog">
@@ -63,42 +63,55 @@
 	       					 			<button type="button" class="close" data-dismiss="modal">&times;</button>
 	       					 			<div class="row">
 	       					 				<div class="col-md-12">
-	       						 				<p class="modal-title fiu"> <b>Formulario User Testing 360</b></p>
+	       						 				<p class="modal-title fiu deja"> <b>Formulario User Testing 360</b></p>
 	       						 			</div>
 	       						 		</div>
 	      							</div>
 	      							<div class="modal-body">
 	      								<div class="row">
 	      									<div class="col-md-12">
-	        									<p class="display">Nombre <span class="red">*</span></p>
-	        									<input type="text">
+	        									<p class="display deja">Nombre <span class="red">*</span></p>
+	        									<input type="text" class="deja">
 	        								</div>
 	        							</div>
 	        							<div class="row">
 	      									<div class="col-md-12">
-	        									<p class="display">Email <span class="red">*</span></p>
-	        									<input type="text">
+	        									<p class="display deja">Email <span class="red">*</span></p>
+	        									<input type="text" class="dos">
 	        								</div>
 	        							</div>
 	        							<div class="row">
-	      									<div class="col-md-12">
-	        									<p class="display">Dejame tu URL. <span class="red">*</span></p>
-	        									<input type="text">
+	      									<div class="col-md-6">
+	        									<p class="display deja">Dejame tu URL. <span class="red">*</span></p>
+	        								</div>
+	        								<div class="col-md-6">
+	        									<textarea rows="3" cols="12" class="trs"></textarea>
+	        								</div>
+	        							</div>
+	        							<div class="row">
+	        								<div class="col-md-12">
+	        									<button class="boto">Enviar Email</button>
 	        								</div>
 	        							</div>
 	      							</div>
 	      							<div class="modal-footer">
-	        						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	      							</div>
+	      								<div class="row">
+	      									<div class="col-md-6">
+	        									<p>Powered by <a href="" class="gris"><u>equipolaboratoria</u></a> </p>
+	        								</div>
+	        								<div class="col-md-6">
+	        									<a href="" class="gris"><u>Report abuse</u></a>
+	        								</div>
+	        							</div>
+	        						</div>
     							</div>
-
  							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 		</div>
-		<div class="container"> <!--unsegundocontainerquenosayudaalinear-->
+		<div class="container" id="nuestrosservicios"> <!--direccionadoconnuestrosservicios-->
 			<section> <!--segundasection-->
 				<div class="row">
 					<div class="col-md-12">
@@ -106,21 +119,21 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-xs-12 col-md-4">
 						<div class="circulo">
 							<img src="image/1.png" alt="cine" class="izar animated flash" ><!--icono1-->
 						</div> 
 						<p class="gris center tama">Pruebalo gratis</p>
 						<p class="center">Obten un primer video screencast de un usuario navangando tu página.</p>
 					</div>
-					<div class="col-md-4"><!--icono2-->
+					<div class="col-xs-12 col-md-4"><!--icono2-->
 						<div class="circulo">
 							<img src="image/2.png" alt="reloj" class="izar animated flash">
 						</div>
 						<p class="gris center tama">Compra el servicio completo</p>
 						<p class="center">Si te gustó; compra nuestro servicio completo que incluye 7 videos y un feedback.</p>
 					</div>
-					<div class="col-md-4"> <!--icono3-->
+					<div class="col-xs-12 col-md-4"> <!--icono3-->
 						<div class="circulo">
 							<img src="image/3.png" alt="hojas" class="izar animated flash ">
 						</div>
@@ -137,9 +150,9 @@
 			</section>
 		</div>
 		<div class="container-fluid">
-			<section> <!--tercerasection-->
+			<section id="funciona"> <!--tercerasection--> <!--direccionadoconfunciona-->
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-xs-12 col-md-6">
 						<p class="display h azul2 topi">Ejemplo de </p> 
 							<img src="image/logo-2.jpg" alt="logo" class="user">
 						<p>En este video te damos un ejemplo de un integrante de nuestro panel evaluando la experiencia de usa de </p>
@@ -147,33 +160,33 @@
 						<p>El objetivo de User Testing 360 es identificar situaciones confusas de los usuarios en su web y describir soluciones, que garanticen una experiencia de uso satisfactoria.</p>
 						<img src="image/flecha.png" alt="flecha" class="left"> <!--imagenflecha-->
 					</div>
-					<div class="col-md-6">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen class="topi"></iframe>	
+					<div class="col-xs-12 col-md-6">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen class="topi vid"></iframe>	
 					</div>
 				</div>
 			</section>
 			<section> <!--cuartasection-->
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-xs-12 col-md-6">
 						<img src="image/sec-2.jpg" alt="compu" class="compu margene"> <!--imagencompukaren-->
 					</div>
-					<div class="col-md-6">
-						<p class="margene h azul2">Lo quiero ¿Qué hago?</p>
+					<div class="col-xs-12 col-md-6">
+						<p class="margene h azul2 li">Lo quiero ¿Qué hago?</p>
 						<span class="icon-pencil iconi"></span><!--primerpaso-->
-						<p class="azul2 fiu arriba">Paso 1:envianos tu link</p>  
-						<p>Al darle click al botón de prueba.Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback. </p>	
+						<p class="azul2 fiu arriba t ot">Paso 1:envianos tu link</p>  
+						<p class="ot to">Al darle click al botón de prueba.Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback. </p>	
 						<span class="icon-tools iconi"></span><!--segundopaso-->
-						<p class="azul2 fiu arriba">Paso 2:describe a tu público objetivo</p> 
-						<p>Describe las acciones que quieres que evaluemos, por ejemplo: </p>
+						<p class="azul2 fiu arriba t ot">Paso 2:describe a tu público objetivo</p> 
+						<p class="ot to">Describe las acciones que quieres que evaluemos, por ejemplo: </p>
 						<ul>
-							<li>A primera vista de ¿Qué crees que trata la página? </li>
-							<li>Busca el botón de inscribirte o comprar</li>
-							<li>¿Es fácil o dificil leer los textos? </li>
+							<li class="ot to">A primera vista de ¿Qué crees que trata la página? </li>
+							<li class="ot to">Busca el botón de inscribirte o comprar</li>
+							<li class="ot to">¿Es fácil o dificil leer los textos? </li>
 						</ul>
-						<p>puedes preguntar como las que te mostramos.</p>
+						<p class="ot to">puedes preguntar como las que te mostramos.</p>
 						<span class="icon-search iconi"></span><!--tercerpaso-->
-						<p class="azul2 fiu arriba">Paso 3:recibe el video y un feedback completo</p> 
-						<p>Recibe un combo de 7 vidos y un informe detallado con las captaciones de usabilidad de tu producto </p>
+						<p class="azul2 fiu arriba t ot">Paso 3:recibe el video y un feedback completo</p> 
+						<p class="ot to">Recibe un combo de 7 vidos y un informe detallado con las captaciones de usabilidad de tu producto </p>
 					</div>
 				</div>
 				<div class="row">
@@ -183,7 +196,7 @@
 					</div>
 				</div>
 			</section>
-			<section> <!--quintasection-->
+			<section id="usarlo"> <!--quintasection--> <!--idusarlo-->
 				<div class="row">
 					<div class="col-md-6">
 						<p class="display h azul2 margene" > Por qué usar</p>
@@ -204,25 +217,25 @@
 			</section>
 			<section> <!--sextayúltimasection-->
 				<div class="row cajazul back margene"> <!--cajitazulqueacogeelprimerboton-->
-					<div class="col-md-6">
-						<p class="blanco center pruebag padtop">PRUEBA GRATIS</p>
-						<p class="blanco  center prueba padbot">Obtén un video gratis de 5 minutos</p>
+					<div class="col-xs-6 col-md-6">
+						<p class="blanco center pruebag padtop gratis fuente1">PRUEBA GRATIS</p>
+						<p class="blanco  center prueba padbot gratis fuente2">Obtén un video gratis de 5 minutos</p>
 					</div>
-					<div class="col-md-6">
-						<a href=""><button class="boton1 animated zoomIn"> Pruebalo gratis</button></a>
+					<div class="col-xs-6 col-md-6">
+						<button type="button" class="boton1 animated zoomIn btn btn-info btn-lg bo" data-toggle="modal" data-target="#myModal">Pruebalo gratis</button>
 					</div>
 				</div>
 			</section>
-			<footer>
+			<footer id="contacto"><!--idcontacto-->
 				<div class="row grisa"><!--cajagris-->
 					<div class="col-md-6">
-						<p class="blanco">Escribenos a: </p>
-						<a href="">experienciadeusuario.lab@gmail.com</a>
-						<p class="blanco">telef: 989887990897908</p>
+						<p class="blanco abajo">Escribenos a: </p>
+						<a href="" class="abajo">experienciadeusuario.lab@gmail.com</a>
+						<p class="blanco ">telef: 989887990897908</p>
 					</div>
 					<div class="col-md-6">
-						<img src="">
-						<img src="">
+						<img src="image/face.png" alt="face" class="face abajo bot">
+						<img src="image/tuit.png" alt="tuit" class="inter abajo bot">
 						<p class="blanco">Copyright &#169 2015-User Testing 360</p>
 					</div>
 				</div>
